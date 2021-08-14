@@ -74,7 +74,7 @@ class ViewController: UIViewController {
             self.timer = nil
             
             
-            var alert = UIAlertController(title: "That's all!", message: "Your score is \(seconds) seconds", preferredStyle: UIAlertControllerStyle.alert)
+            let alert = UIAlertController(title: "That's all!", message: "Your score is \(seconds) seconds", preferredStyle: UIAlertControllerStyle.alert)
             
             //            alert.addAction(UIAlertAction(title: "Play again", style: UIAlertActionStyle.default, handler:{_ in
             alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
