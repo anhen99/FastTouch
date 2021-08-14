@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		695B50B51EB58400002A0122 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B50B41EB58400002A0122 /* ViewController.swift */; };
+		695B50B81EB58400002A0122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695B50B61EB58400002A0122 /* Main.storyboard */; };
+		695B50BA1EB58400002A0122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695B50B91EB58400002A0122 /* Assets.xcassets */; };
+		695B50BD1EB58400002A0122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695B50BB1EB58400002A0122 /* LaunchScreen.storyboard */; };
+		695B50C81EB58400002A0122 /* FastTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B50C71EB58400002A0122 /* FastTouchTests.swift */; };
+		695B50D31EB58400002A0122 /* FastTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B50D21EB58400002A0122 /* FastTouchUITests.swift */; };
+		CCBF8C1A26C69BEF00C0A6BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B50B41EB58400002A0122 /* ViewController.swift */; };
+		CCBF8C1B26C69BF000C0A6BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B50B41EB58400002A0122 /* ViewController.swift */; };
+		CCBF8CC526C6DDC000C0A6BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBF8CC426C6DDC000C0A6BB /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		695B50C41EB58400002A0122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 695B50A71EB58400002A0122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 695B50AE1EB58400002A0122;
+			remoteInfo = FastTouch;
+		};
+		695B50CF1EB58400002A0122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 695B50A71EB58400002A0122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 695B50AE1EB58400002A0122;
+			remoteInfo = FastTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		695B50AF1EB58400002A0122 /* FastTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		695B50B41EB58400002A0122 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		695B50B71EB58400002A0122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		695B50B91EB58400002A0122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		695B50BC1EB58400002A0122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		695B50BE1EB58400002A0122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695B50C31EB58400002A0122 /* FastTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		695B50C71EB58400002A0122 /* FastTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastTouchTests.swift; sourceTree = "<group>"; };
+		695B50C91EB58400002A0122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695B50CE1EB58400002A0122 /* FastTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		695B50D21EB58400002A0122 /* FastTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastTouchUITests.swift; sourceTree = "<group>"; };
+		695B50D41EB58400002A0122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBF8C1926C55C2B00C0A6BB /* FastTouch copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FastTouch copy-Info.plist"; path = "/Users/valnuz/Downloads/FastTouch-master/FastTouch copy-Info.plist"; sourceTree = "<absolute>"; };
+		CCBF8CC426C6DDC000C0A6BB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		695B50AC1EB58400002A0122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695B50C01EB58400002A0122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695B50CB1EB58400002A0122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		695B50A61EB58400002A0122 = {
+			isa = PBXGroup;
+			children = (
+				695B50B11EB58400002A0122 /* FastTouch */,
+				695B50C61EB58400002A0122 /* FastTouchTests */,
+				695B50D11EB58400002A0122 /* FastTouchUITests */,
+				695B50B01EB58400002A0122 /* Products */,
+				CCBF8C1926C55C2B00C0A6BB /* FastTouch copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		695B50B01EB58400002A0122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				695B50AF1EB58400002A0122 /* FastTouch.app */,
+				695B50C31EB58400002A0122 /* FastTouchTests.xctest */,
+				695B50CE1EB58400002A0122 /* FastTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		695B50B11EB58400002A0122 /* FastTouch */ = {
+			isa = PBXGroup;
+			children = (
+				CCBF8CC426C6DDC000C0A6BB /* AppDelegate.swift */,
+				695B50B41EB58400002A0122 /* ViewController.swift */,
+				695B50B61EB58400002A0122 /* Main.storyboard */,
+				695B50B91EB58400002A0122 /* Assets.xcassets */,
+				695B50BB1EB58400002A0122 /* LaunchScreen.storyboard */,
+				695B50BE1EB58400002A0122 /* Info.plist */,
+			);
+			path = FastTouch;
+			sourceTree = "<group>";
+		};
+		695B50C61EB58400002A0122 /* FastTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				695B50C71EB58400002A0122 /* FastTouchTests.swift */,
+				695B50C91EB58400002A0122 /* Info.plist */,
+			);
+			path = FastTouchTests;
+			sourceTree = "<group>";
+		};
+		695B50D11EB58400002A0122 /* FastTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				695B50D21EB58400002A0122 /* FastTouchUITests.swift */,
+				695B50D41EB58400002A0122 /* Info.plist */,
+			);
+			path = FastTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		695B50AE1EB58400002A0122 /* FastTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695B50D71EB58400002A0122 /* Build configuration list for PBXNativeTarget "FastTouch" */;
+			buildPhases = (
+				695B50AB1EB58400002A0122 /* Sources */,
+				695B50AC1EB58400002A0122 /* Frameworks */,
+				695B50AD1EB58400002A0122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastTouch;
+			productName = FastTouch;
+			productReference = 695B50AF1EB58400002A0122 /* FastTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		695B50C21EB58400002A0122 /* FastTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695B50DA1EB58400002A0122 /* Build configuration list for PBXNativeTarget "FastTouchTests" */;
+			buildPhases = (
+				695B50BF1EB58400002A0122 /* Sources */,
+				695B50C01EB58400002A0122 /* Frameworks */,
+				695B50C11EB58400002A0122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				695B50C51EB58400002A0122 /* PBXTargetDependency */,
+			);
+			name = FastTouchTests;
+			productName = FastTouchTests;
+			productReference = 695B50C31EB58400002A0122 /* FastTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		695B50CD1EB58400002A0122 /* FastTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695B50DD1EB58400002A0122 /* Build configuration list for PBXNativeTarget "FastTouchUITests" */;
+			buildPhases = (
+				695B50CA1EB58400002A0122 /* Sources */,
+				695B50CB1EB58400002A0122 /* Frameworks */,
+				695B50CC1EB58400002A0122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				695B50D01EB58400002A0122 /* PBXTargetDependency */,
+			);
+			name = FastTouchUITests;
+			productName = FastTouchUITests;
+			productReference = 695B50CE1EB58400002A0122 /* FastTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		695B50A71EB58400002A0122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Moises Gil";
+				TargetAttributes = {
+					695B50AE1EB58400002A0122 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 84HLL83D37;
+						ProvisioningStyle = Automatic;
+					};
+					695B50C21EB58400002A0122 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7X9SFG4H67;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 695B50AE1EB58400002A0122;
+					};
+					695B50CD1EB58400002A0122 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7X9SFG4H67;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 695B50AE1EB58400002A0122;
+					};
+				};
+			};
+			buildConfigurationList = 695B50AA1EB58400002A0122 /* Build configuration list for PBXProject "FastTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 695B50A61EB58400002A0122;
+			productRefGroup = 695B50B01EB58400002A0122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				695B50AE1EB58400002A0122 /* FastTouch */,
+				695B50C21EB58400002A0122 /* FastTouchTests */,
+				695B50CD1EB58400002A0122 /* FastTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		695B50AD1EB58400002A0122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695B50BD1EB58400002A0122 /* LaunchScreen.storyboard in Resources */,
+				695B50BA1EB58400002A0122 /* Assets.xcassets in Resources */,
+				695B50B81EB58400002A0122 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695B50C11EB58400002A0122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695B50CC1EB58400002A0122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		695B50AB1EB58400002A0122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBF8CC526C6DDC000C0A6BB /* AppDelegate.swift in Sources */,
+				695B50B51EB58400002A0122 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695B50BF1EB58400002A0122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBF8C1A26C69BEF00C0A6BB /* ViewController.swift in Sources */,
+				695B50C81EB58400002A0122 /* FastTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695B50CA1EB58400002A0122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBF8C1B26C69BF000C0A6BB /* ViewController.swift in Sources */,
+				695B50D31EB58400002A0122 /* FastTouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		695B50C51EB58400002A0122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 695B50AE1EB58400002A0122 /* FastTouch */;
+			targetProxy = 695B50C41EB58400002A0122 /* PBXContainerItemProxy */;
+		};
+		695B50D01EB58400002A0122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 695B50AE1EB58400002A0122 /* FastTouch */;
+			targetProxy = 695B50CF1EB58400002A0122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		695B50B61EB58400002A0122 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				695B50B71EB58400002A0122 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		695B50BB1EB58400002A0122 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				695B50BC1EB58400002A0122 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		695B50D51EB58400002A0122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		695B50D61EB58400002A0122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		695B50D81EB58400002A0122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84HLL83D37;
+				INFOPLIST_FILE = FastTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgil.FastTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		695B50D91EB58400002A0122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84HLL83D37;
+				INFOPLIST_FILE = FastTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgil.FastTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		695B50DB1EB58400002A0122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7X9SFG4H67;
+				INFOPLIST_FILE = FastTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgil.FastTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastTouch.app/FastTouch";
+			};
+			name = Debug;
+		};
+		695B50DC1EB58400002A0122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7X9SFG4H67;
+				INFOPLIST_FILE = FastTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgil.FastTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastTouch.app/FastTouch";
+			};
+			name = Release;
+		};
+		695B50DE1EB58400002A0122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7X9SFG4H67;
+				INFOPLIST_FILE = FastTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgil.FastTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FastTouch;
+			};
+			name = Debug;
+		};
+		695B50DF1EB58400002A0122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7X9SFG4H67;
+				INFOPLIST_FILE = FastTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgil.FastTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FastTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		695B50AA1EB58400002A0122 /* Build configuration list for PBXProject "FastTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695B50D51EB58400002A0122 /* Debug */,
+				695B50D61EB58400002A0122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		695B50D71EB58400002A0122 /* Build configuration list for PBXNativeTarget "FastTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695B50D81EB58400002A0122 /* Debug */,
+				695B50D91EB58400002A0122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		695B50DA1EB58400002A0122 /* Build configuration list for PBXNativeTarget "FastTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695B50DB1EB58400002A0122 /* Debug */,
+				695B50DC1EB58400002A0122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		695B50DD1EB58400002A0122 /* Build configuration list for PBXNativeTarget "FastTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695B50DE1EB58400002A0122 /* Debug */,
+				695B50DF1EB58400002A0122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 695B50A71EB58400002A0122 /* Project object */;
+}
